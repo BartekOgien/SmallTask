@@ -6,7 +6,6 @@ import java.time.Month;
 
 import static org.junit.Assert.*;
 
-
 public class FileReaderTest {
 
     @Test
