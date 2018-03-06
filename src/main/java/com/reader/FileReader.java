@@ -21,6 +21,7 @@ public class FileReader {
         ClassLoader classLoader = getClass().getClassLoader();
         File file = new File(classLoader.getResource(filePath).getFile());
         Path path = Paths.get(file.getPath());
+        System.out.println(path);
         try {
             printInfo(createUserList(path));
         } catch (IOException e) {
